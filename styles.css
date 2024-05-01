@@ -4,69 +4,76 @@ body {
     padding: 0;
     background-color: #070733;
     color: #ffffff;
+
 }
+
 header {
     background-color: #2e2be6;
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    margin-bottom: auto;
 }
-h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
+
 p {
     font-size: 16px;
 }
+
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1f1d80;
-    color: #fff;
+    background-color: #2e2be6;
+    color: #ffffff;
 }
 
-.navbar {
-    position: absolute;
-    font-size: 16px;
-    text-align: center;
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
     background-color: #1f1d80;
-    padding: 10px;
-    top: 10px;
+    height: auto;
     border-radius: 20px;
-    opacity: 70%;
     
 }
 
-.navbar:hover {
-    opacity: 100%;
+.nav ul li {
+    margin-right: 20px; /* Increase or decrease this value to adjust spacing */
+    font-size: 50px;
 }
 
-.navbar a {
-    color: #ffffff;
-    padding: 50px;
-    text-decoration: none;    
+.nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffffff; /* Set link color */
+    font-weight: bold; /* Make the text bold */
+    padding: 50px; /* Add some padding for spacing */
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-button {
-    padding: 10px;
-    background-color: burlywood;
-    color: fuchsia;
-    border-radius: 30px;
+.nav ul li a:hover {
+    background-color: #2e2be6; /* Add a background color on hover */
 }
 
-.main_image {
-    position: relative;
-    margin: 50;
-    padding: 20;
-    text-align: center;
+.content {
+
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+    
+    background-color: #1f1d80;
+    
 }
 
-.Main_Title {
-    position: absolute;
-    bottom: 10%;
-    left: 8%;
+div {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.Main_Title h1 {
-    font-size: 500%;
-}
+
